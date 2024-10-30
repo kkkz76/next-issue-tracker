@@ -25,8 +25,7 @@ const Navbar = React.memo(() => {
             className={classNames({
               "text-zinc-900": current_path === nlink.link,
               "text-zinc-500": current_path !== nlink.link,
-              "hover:text-zinc-900 cursor-pointer font-bold transition-colors":
-                true,
+              "hover:text-zinc-900 cursor-pointer transition-colors": true,
             })}
             href={nlink.link}
           >
